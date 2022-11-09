@@ -193,3 +193,98 @@ main{
    margin-left: 5px;
    color: white;
 }
+
+/* tag for 2th section */
+
+.sec_2{
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.co66{
+    display: flex;
+    justify-content: space-around;
+}
+
+.im2{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 55vh;
+    border-radius: 20px;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* object-fit: cover; */
+}
+.ppp{
+    /* border: 2px solid green; */
+    width: 50%;
+    margin-top: 100px;
+}
+.ppp h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.ppp p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: grey;
+}
+.l33{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 5px;
+    width: 40%;
+    background-color: rgb(8, 66, 8);
+}
+.ton6{
+    margin: 20px 10px;
+    padding: 5px 15px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.ton6:hover{
+    cursor: pointer;
+    background-color: red;
+}
+/* tag for section 3 */
+
+.sec_3{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.tt4{
+    /* border: 2px solid red; */
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+/* tag for section 4 */
+
+.sec_4{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+   
+}
+.ma4{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 30vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+.fo6{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}

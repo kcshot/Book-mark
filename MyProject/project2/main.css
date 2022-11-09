@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/* tag for the header */
+
+nav{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+.cont{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+.logo{
+    /* border: 1px solid green; */
+    width: 70px;
+    height: 25px;
+    padding: 5px;
+}
+.fea{
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+.fea:hover{
+    cursor: pointer;
+    
+}
+.btn1 button{
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: gray;
+}
+.btn1 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.fea ul{
+    /* border: 2px solid red; */
+    width: 170px;
+    /* margin: 10px 25px 0px 0px; */
+    position: absolute;
+    top: 60px;
+    right: 2px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 15px rgb(179, 178, 178);
+    display: none;
+}
+.fea:hover ul{
+    display: block;
+}
+.fea ul li{
+    /* border: 2px solid goldenrod; */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.fea ul li h3{
+    font-size: 15px;
+    color: gray;
+    margin: 15px 10px ;
+}
+.fea ul li img{
+    margin: 15px 10px ;
+}
+
+.com{
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+.com:hover{
+    cursor: pointer;
+}
+.btn2 button{
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: gray;
+}
+.btn2 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.com ul{
+    /* border: 2px solid red; */
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 35px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 15px rgb(179, 178, 178);
+    display: none;
+}
+.com ul li{
+    font-size: 15px;
+    color: gray;
+    margin: 25px 10px ;
+    list-style: none;
+    text-align: center;
+}
+.com:hover ul{
+    display: block;
+}
+.btn4{
+    /* border: 2px solid brown; */
+    width: 100px;
+    height: 30px;
+    padding: 2px 7px 2px 7px;
+    font-size: 15px;
+    color: gray;
+    border: none;
+    background-color: whitesmoke;
+}
+.btn4:hover{
+    cursor: pointer;
+    color: black;
+}
+.lo{
+    /* border: 2px solid red; */
+    height: 50px;
+    padding: 5px;
+    margin: 22px 30px 0px 0px;
+}
+.btn3{
+    padding: 5px 15px;
+    margin: 0px 25px 0px 0px;
+    border: 0px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    color: gray;
+}
+.btn3:hover{
+    cursor: pointer;
+    color: black;
+}
+
+/* end of header tag */
+
+/* tag for main tag */
+.cont2{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    max-width: 1700px;
+    margin: 50px auto;
+    
+}
+.write{
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin: 2px 0px 0px 80px;
+    height: 95vh;
+    /* width: 500px; */
+}
+.write h1{
+    /* border: 2px solid green; */
+    margin-top: 150px;
+    font-size: 70px;
+}
+.write p{
+    /* border: 2px solid red; */
+    width: 400px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 80px;
+    color: gray;
+}
+.write button{
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.write button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: whitesmoke;
+}
+.photo{
+    margin-top: 170px;
+}
+.photo img{
+    margin: 2px 30px 0px 0px;
+}
+
+.pic{
+    width: 650px;
+    height: 760px;
+    margin-left: 100px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
